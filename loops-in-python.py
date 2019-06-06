@@ -1,4 +1,3 @@
-
 # Loops meaning iteration/repeatation
 # while loop " Repeat until the condition is true/valid
 # for loop " Repeat over a Sequence
@@ -40,13 +39,30 @@
 #
 # for x in range(2):
 #     print(x)
+#
+# for x in range(3, 9, 2):
+#     if x == 3:
+#         print(x)
+#     else:
+#         if x == 9:
+#             print("x is %s" % x)
+#         else:
+#             print("2")
 
-for x in range(3, 9, 2):
-    #print(x)
-    if x == 3:
-        print(x)
-    else:
-        if x == 9:
-            print("x is %s" % x)
-        else:
-            print("2")
+# --------With the while loop we can execute a set of statements as long as a condition is true------
+
+user_name = "hemant"
+
+while user_name == "hemant":
+    print("Yes, He is back")
+    break    # you have a break sequence inside the loop or else the loop will continue infinitely
+
+num = 6
+while num>=2:
+    print(num)
+    num = num-1     # break sequence
+
+num = 1
+while num<=100:
+    print(num)
+    num = num+1     # break sequence
