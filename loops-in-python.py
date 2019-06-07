@@ -51,18 +51,22 @@
 
 # --------With the while loop we can execute a set of statements as long as a condition is true------
 
-user_name = "hemant"
+# user_name = "hemant"
+# #
+# # while user_name == "hemant":
+# #     print("Yes, He is back")
+# #     break    # you have a break sequence inside the loop or else the loop will continue infinitely
+# #
+# # num = 6
+# # while num>=2:
+# #     print(num)
+# #     num = num-1     # break sequence
+# #
+# # num = 1
+# # while num<=100:
+# #     print(num)
+# #     num = num+1     # break sequence
 
-while user_name == "hemant":
-    print("Yes, He is back")
-    break    # you have a break sequence inside the loop or else the loop will continue infinitely
-
-num = 6
-while num>=2:
-    print(num)
-    num = num-1     # break sequence
-
-num = 1
-while num<=100:
-    print(num)
-    num = num+1     # break sequence
+file = open("demo.txt", "r")
+for content in file:
+    print(content)

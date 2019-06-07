@@ -1,3 +1,8 @@
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+# Set is a collection which is unordered and unindexed. No duplicate members.
+# Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+
 list1 = [1,2,3,4,5]    # mutable means "can be modified"
 tuples1 = (1,2,3,4,5)  # immutable " cannot be modified"
 set1 = {1,2,3,4,5,5} # unordered and unique
